@@ -4,6 +4,9 @@ import java.util.Scanner;
 	public class WhoAreYou {
 		public static void main(String[] args){
 		Scanner s = new Scanner(System.in);
+		String [] arr = {
+			"이름이 뭔가요?","당신은"
+		};
 		String name="";
 		System.out.print("이름이 뭔가요?\n");
 		name=s.next();
